@@ -11,11 +11,11 @@ app.use(express.static('public'));
 
 // Pokemon data (we'll move this to a separate file later)
 let pokemonStocks = [
-    { id: 1, name: 'Pikachu', price: 100, volatility: 0.1, priceChange: 0 },
-    { id: 2, name: 'Charizard', price: 500, volatility: 0.2, priceChange: 0 },
-    { id: 3, name: 'Mewtwo', price: 1000, volatility: 0.3, priceChange: 0 },
-    { id: 4, name: 'Snorlax', price: 300, volatility: 0.15, priceChange: 0 },
-    { id: 5, name: 'Gyarados', price: 400, volatility: 0.25, priceChange: 0 }
+    { id: 1, name: 'Pikachu', price: 1000, volatility: 0.3, priceChange: 0 },
+    { id: 2, name: 'Charizard', price: 800, volatility: 0.25, priceChange: 0 },
+    { id: 3, name: 'Mewtwo', price: 500, volatility: 0.1, priceChange: 0 },
+    { id: 4, name: 'Snorlax', price: 700, volatility: 0.2, priceChange: 0 },
+    { id: 5, name: 'Gyarados', price: 600, volatility: 0.15, priceChange: 0 }
 ];
 
 // Routes
